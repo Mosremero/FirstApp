@@ -6,9 +6,13 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            String MyName;
-            MyName = "Jane";
+            const string MyName = "Ivan";
+
             Console.WriteLine(MyName);
+
+            Console.WriteLine("Привет, мир");
+            Console.WriteLine("Мне 32 года");
+            Console.WriteLine("My name is Ivan");
 
             Console.ReadKey();
         }
