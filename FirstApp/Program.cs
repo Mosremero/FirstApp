@@ -6,7 +6,16 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("FirstBranch");
+            Semaphore greenCode = Semaphore.Green;
+            Console.WriteLine(greenCode);
+            Console.ReadKey();
         }
+    }
+
+    enum Semaphore : ushort
+    {
+        Red = 100,
+        Yellow = 200,
+        Green = 300
     }
 }
