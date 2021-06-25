@@ -15,6 +15,8 @@ namespace FirstApp
             Console.WriteLine("MyAge is {0}", age);
             Console.WriteLine("Do i have a pet? {0}", have_pet);
             Console.WriteLine("My shoe size is {0}", myFootSize);
+
+            Console.ReadKey();
         }
     }
 }
